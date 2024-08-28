@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+form {
+  background: #00aeef;
+  color: #fff;
+  width: 600px;
+  padding: 1.5rem 2rem;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+#textBox {
+  padding: 0.4rem 0.4rem;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#toFahrenheit {
+  margin-bottom: 20px;
+}
+
+#toCelsius {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 0.8rem 3rem;
+  color: #fff;
+  background: #0a7faa;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #333;
+  background: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+#result {
+  font-size: 1.2rem;
+}
